@@ -1282,7 +1282,7 @@ continue
 			
 m.exp += xp
 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-this.sendMessage(m.chat, {text: `${lenguajeGB['smsCont7']()} *${usedPrefix}buy*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: wm previewType: 0, thumbnail: gataImg, sourceUrl: accountsgb }}}, { quoted: m })         
+this.sendMessage(m.chat, {text: `${lenguajeGB['smsCont7']()} *${usedPrefix}buy*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: wm, previewType: 0, thumbnail: gataImg, sourceUrl: accountsgb }}}, { quoted: m })         
 //this.reply(m.chat, `${lenguajeGB['smsCont7']()} *${usedPrefix}buy*`, m)
 continue //Sin límite
 }
